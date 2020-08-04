@@ -17,7 +17,7 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Adamas",
+              "Media Player",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
             ),
             SizedBox(height: size.height * 0.05),
@@ -27,7 +27,7 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.05),
             RoundedButton(
-              text: "LOGIN",
+              text: "VIDEOS",
               press: () {
                 Navigator.push(
                   context,
@@ -40,7 +40,7 @@ class Body extends StatelessWidget {
               },
             ),
             RoundedButton(
-              text: "SIGN UP",
+              text: "MUSIC",
               color: kPrimaryLightColor,
               textColor: Colors.black,
               press: () {
